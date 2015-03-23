@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+ScreenShotView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    
+    IBOutlet UIImageView *imview;
+    
+}
+
+- (IBAction)shareButtonPressed:(id)sender;
 
 
 @end

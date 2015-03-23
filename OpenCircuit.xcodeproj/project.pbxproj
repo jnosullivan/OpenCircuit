@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45915B491ABFD851003B3490 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 45915B481ABFD851003B3490 /* Common.m */; };
+		45915B4C1AC06A09003B3490 /* UIView+ScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45915B4B1AC06A09003B3490 /* UIView+ScreenShotView.m */; };
 		97735FAE1ABB88BE0071CAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FAD1ABB88BE0071CAE2 /* main.m */; };
 		97735FB11ABB88BE0071CAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB01ABB88BE0071CAE2 /* AppDelegate.m */; };
 		97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB31ABB88BE0071CAE2 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		45915B471ABFD851003B3490 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Common/Common.h; sourceTree = "<group>"; };
 		45915B481ABFD851003B3490 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Common/Common.m; sourceTree = "<group>"; };
+		45915B4A1AC06A09003B3490 /* UIView+ScreenShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ScreenShotView.h"; path = "Common/UIView+ScreenShotView.h"; sourceTree = "<group>"; };
+		45915B4B1AC06A09003B3490 /* UIView+ScreenShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ScreenShotView.m"; path = "Common/UIView+ScreenShotView.m"; sourceTree = "<group>"; };
 		97735FA81ABB88BE0071CAE2 /* OpenCircuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCircuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97735FAC1ABB88BE0071CAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97735FAD1ABB88BE0071CAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 			children = (
 				45915B471ABFD851003B3490 /* Common.h */,
 				45915B481ABFD851003B3490 /* Common.m */,
+				45915B4A1AC06A09003B3490 /* UIView+ScreenShotView.h */,
+				45915B4B1AC06A09003B3490 /* UIView+ScreenShotView.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			files = (
 				45915B491ABFD851003B3490 /* Common.m in Sources */,
 				97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */,
+				45915B4C1AC06A09003B3490 /* UIView+ScreenShotView.m in Sources */,
 				97735FB11ABB88BE0071CAE2 /* AppDelegate.m in Sources */,
 				97735FAE1ABB88BE0071CAE2 /* main.m in Sources */,
 			);
