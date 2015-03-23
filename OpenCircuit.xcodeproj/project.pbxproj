@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45915B491ABFD851003B3490 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 45915B481ABFD851003B3490 /* Common.m */; };
 		97735FAE1ABB88BE0071CAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FAD1ABB88BE0071CAE2 /* main.m */; };
 		97735FB11ABB88BE0071CAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB01ABB88BE0071CAE2 /* AppDelegate.m */; };
 		97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB31ABB88BE0071CAE2 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45915B471ABFD851003B3490 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Common/Common.h; sourceTree = "<group>"; };
+		45915B481ABFD851003B3490 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Common/Common.m; sourceTree = "<group>"; };
 		97735FA81ABB88BE0071CAE2 /* OpenCircuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCircuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97735FAC1ABB88BE0071CAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97735FAD1ABB88BE0071CAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45915B451ABFD34D003B3490 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45915B471ABFD851003B3490 /* Common.h */,
+				45915B481ABFD851003B3490 /* Common.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		97735F9F1ABB88BE0071CAE2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		97735FAA1ABB88BE0071CAE2 /* OpenCircuit */ = {
 			isa = PBXGroup;
 			children = (
+				45915B451ABFD34D003B3490 /* Common */,
 				97735FAF1ABB88BE0071CAE2 /* AppDelegate.h */,
 				97735FB01ABB88BE0071CAE2 /* AppDelegate.m */,
 				97735FB21ABB88BE0071CAE2 /* ViewController.h */,
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45915B491ABFD851003B3490 /* Common.m in Sources */,
 				97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */,
 				97735FB11ABB88BE0071CAE2 /* AppDelegate.m in Sources */,
 				97735FAE1ABB88BE0071CAE2 /* main.m in Sources */,
@@ -414,6 +428,7 @@
 				97735FCD1ABB88BE0071CAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97735FCE1ABB88BE0071CAE2 /* Build configuration list for PBXNativeTarget "OpenCircuitTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				97735FD01ABB88BE0071CAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
