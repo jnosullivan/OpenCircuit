@@ -2,19 +2,19 @@
 
 Created: 3.26.15 by August Meyer and John O'Sullivan on behalf of LuTec  
 
-**Milestone 1**: Create repository
+**Milestone 1**: Create repository (DONE)
 
-**Milestone 2**: Create "mission statement" in README, and push initial commit.  
+**Milestone 2**: Create "mission statement" in README, and push initial commit.  (DONE)
 
-**Milestone 3**: Implement screenshot capability  
+**Milestone 3**: Implement screenshot capability (DONE)
 
-**Milestone 4**: Implement movable view to act as basis for all circuits/components.  
+**Milestone 4**: Create selectable menu for users to select components and drag them to their circuit diagram. (DONE)   
 
 **Milestone 5**: Document a list of all electrical components that are to be featured initially in the app.  
 
 **Milestone 6**: Draw images for each component based on electrical standards and add them to the repo.  
 
-**Milestone 7**: Create selectable menu for users to select components and drag them to their circuit diagram.  
+**Milestone 7**: Implement movable view to act as basis for all circuits/components.
 
 **Milestone 8**: Add all components to the movable view.  
 
