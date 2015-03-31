@@ -7,36 +7,50 @@
 //
 
 #import "ViewController.h"
+#import <UIKit/UIKit.h>
+#import "OCActionSheetPickerView.h"
+#import "Common.h"
 
 
-
-@interface ViewController ()
+@interface ViewController () <OCActionSheetPickerViewDelegate>
 @property (strong, nonatomic) UIImage *screenshotTaken;
 @end
 
 @implementation ViewController
 
+
+-(void)actionSheetPickerView:(OCActionSheetPickerView *)pickerView didSelectTitles:(NSArray *)titles
+{
+    
+    NSLog(@"%@",titles);
+    
+}
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     
-    self.screenshotTaken = [self.view takescreenshot];
+}
 
+- (IBAction)addButtonPressed:(id)sender {
     
-    imview.image = self.screenshotTaken;
     
-   
+    OCActionSheetPickerView *picker = [[OCActionSheetPickerView alloc] initWithTitle:@"Single Picker" delegate:self];
+    [picker setTag:1];
+    [picker setTitlesForComponenets:@[@[@"First", @"Second", @"Third", @"Four", @"Five"]]];
+    [picker show];
     
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 - (IBAction)shareButtonPressed:(id)sender {
-
-
+    
+    
+    
+    
+    
 }
 
 @end
