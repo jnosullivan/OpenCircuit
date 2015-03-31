@@ -1,0 +1,14 @@
+####List of Components to be Included in the Initial Version of OpenCircuit  
+
+* Resistors (to be notated by user with ohms)  
+* Capcitors  (to be notated by user with type)
+* Transistors  (to be notatated by user with NPN or PNP)
+* Inductor  
+* 3-pin "mystery" component (to be notated by user with what it represents)  
+* Generic "box" component (to be notated by user with what it represents)  
+* Pushbutton  
+* LED (to be notated by user with color)  
+* Toggle switch  
+* RGB LED  
+* Power (to be notated by user with voltage)  
+* Ground
