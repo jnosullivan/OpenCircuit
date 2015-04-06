@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+ScreenShotView.h"
-
+#import "UIView-Drag.h"
 
 @interface ViewController : UIViewController
  {
