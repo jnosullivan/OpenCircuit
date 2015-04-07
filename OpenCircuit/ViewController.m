@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "OCActionSheetPickerView.h"
 #import "Common.h"
-
+#import "MovableView.h"
 
 @interface DragView : UIView
 {
@@ -19,6 +19,7 @@
 @end
 
 @implementation DragView
+
 - (id) initWithImage: (CGRect *) anImage
 {
     if (self = [super initWithFrame:*anImage])
@@ -35,10 +36,8 @@
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    // Promote the touched view
     [self.superview bringSubviewToFront:self];
     
-    // Remember original location
     previousLocation = self.center;
 }
 
@@ -62,6 +61,31 @@
     
     NSLog(@"%@",titles);
     
+    //Basic
+    MovableView *movableView = [[MovableView alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    UIImageView *componentx = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    componentx.backgroundColor = [UIColor redColor];
+    [movableView addSubview:componentx];
+    movableView.backgroundColor = [UIColor greenColor];
+    [xview addSubview:movableView];
+    
+    
+    //Complex
+    MovableView *movableViewImage = [[MovableView alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    UIImageView *component = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 40)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 40, 100, 10)];
+    label.text = @"OMHS";
+    [label setFont:[UIFont systemFontOfSize:8]];
+    label.textAlignment = NSTextAlignmentCenter;
+    component.backgroundColor = [UIColor redColor];
+    [movableViewImage addSubview:component];
+    [movableViewImage addSubview:label];
+    movableViewImage.backgroundColor = [UIColor greenColor];
+    [xview addSubview:movableViewImage];
+
+    
+    
+    
 }
 
 - (void)viewDidLoad {
@@ -72,20 +96,11 @@
 
 - (IBAction)addButtonPressed:(id)sender {
     
-    DragView *view = [[DragView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-    
-    view.backgroundColor = [UIColor redColor];
-    
-    [self.view addSubview:view];
-    
-    
-    /*
-    
     OCActionSheetPickerView *picker = [[OCActionSheetPickerView alloc] initWithTitle:@"Single Picker" delegate:self];
     [picker setTag:1];
     [picker setTitlesForComponenets:@[@[@"First", @"Second", @"Third", @"Four", @"Five"]]];
     [picker show];
-    */
+    
 }
 
 
@@ -95,7 +110,15 @@
 - (IBAction)shareButtonPressed:(id)sender {
     
     
+    NSMutableArray *sharingItems = [NSMutableArray new];
     
+    UIImage *pic = [xview takescreenshot];
+    
+    [sharingItems addObject:pic];
+  
+
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:sharingItems applicationActivities:nil];
+    [self presentViewController:activityController animated:YES completion:nil];
     
     
 }

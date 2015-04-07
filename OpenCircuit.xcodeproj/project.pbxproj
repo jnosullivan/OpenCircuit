@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450DE7C71AD3829D00036774 /* MovableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450DE7C61AD3829D00036774 /* MovableView.m */; };
 		45915B491ABFD851003B3490 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 45915B481ABFD851003B3490 /* Common.m */; };
 		45915B4C1AC06A09003B3490 /* UIView+ScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45915B4B1AC06A09003B3490 /* UIView+ScreenShotView.m */; };
 		459278A91AC9F75200EFAC70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459278A81AC9F75200EFAC70 /* QuartzCore.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450DE7C51AD3829D00036774 /* MovableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableView.h; sourceTree = "<group>"; };
+		450DE7C61AD3829D00036774 /* MovableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableView.m; sourceTree = "<group>"; };
 		45915B471ABFD851003B3490 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Common/Common.h; sourceTree = "<group>"; };
 		45915B481ABFD851003B3490 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Common/Common.m; sourceTree = "<group>"; };
 		45915B4A1AC06A09003B3490 /* UIView+ScreenShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ScreenShotView.h"; path = "Common/UIView+ScreenShotView.h"; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				45915B481ABFD851003B3490 /* Common.m */,
 				45915B4A1AC06A09003B3490 /* UIView+ScreenShotView.h */,
 				45915B4B1AC06A09003B3490 /* UIView+ScreenShotView.m */,
+				450DE7C51AD3829D00036774 /* MovableView.h */,
+				450DE7C61AD3829D00036774 /* MovableView.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45915B491ABFD851003B3490 /* Common.m in Sources */,
+				450DE7C71AD3829D00036774 /* MovableView.m in Sources */,
 				97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */,
 				459278C11AC9FD0B00EFAC70 /* OCActionSheetPickerView.m in Sources */,
 				45915B4C1AC06A09003B3490 /* UIView+ScreenShotView.m in Sources */,

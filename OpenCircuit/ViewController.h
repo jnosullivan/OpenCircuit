@@ -13,7 +13,9 @@
 @interface ViewController : UIViewController
  {
     
-    
+    IBOutlet UIView *xview;
+
+     
     IBOutlet UIImageView *imview;
     UIImageView *imageView1;
 }
