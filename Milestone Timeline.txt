@@ -10,11 +10,11 @@ Created: 3.26.15 by August Meyer and John O'Sullivan on behalf of LuTec
 
 **Milestone 4**: Create selectable menu for users to select components and drag them to their circuit diagram. (DONE)   
 
-**Milestone 5**: Document a list of all electrical components that are to be featured initially in the app.  
+**Milestone 5**: Document a list of all electrical components that are to be featured initially in the app.  (DONE)
 
-**Milestone 6**: Draw images for each component based on electrical standards and add them to the repo.  
+**Milestone 6**: Draw images for each component based on electrical standards and add them to the repo. 
 
-**Milestone 7**: Implement movable view to act as basis for all circuits/components.
+**Milestone 7**: Implement movable view to act as basis for all circuits/components. (DONE)
 
 **Milestone 8**: Add all components to the movable view.  
 
