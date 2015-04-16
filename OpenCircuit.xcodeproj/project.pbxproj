@@ -15,6 +15,18 @@
 		459278AD1AC9F77C00EFAC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459278AC1AC9F77C00EFAC70 /* UIKit.framework */; };
 		459278C11AC9FD0B00EFAC70 /* OCActionSheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459278BE1AC9FD0B00EFAC70 /* OCActionSheetPickerView.m */; };
 		459278C21AC9FD0B00EFAC70 /* OCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459278C01AC9FD0B00EFAC70 /* OCActionSheetViewController.m */; };
+		45C9CFAA1AE06C4700D78040 /* 3-PinBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CF9E1AE06C4700D78040 /* 3-PinBox.png */; };
+		45C9CFAB1AE06C4700D78040 /* Capacitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CF9F1AE06C4700D78040 /* Capacitor.png */; };
+		45C9CFAC1AE06C4700D78040 /* Generic Component.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA01AE06C4700D78040 /* Generic Component.png */; };
+		45C9CFAD1AE06C4700D78040 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA11AE06C4700D78040 /* Ground.png */; };
+		45C9CFAE1AE06C4700D78040 /* Inductor.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA21AE06C4700D78040 /* Inductor.png */; };
+		45C9CFAF1AE06C4700D78040 /* LED Diode.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA31AE06C4700D78040 /* LED Diode.png */; };
+		45C9CFB01AE06C4700D78040 /* Power.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA41AE06C4700D78040 /* Power.png */; };
+		45C9CFB11AE06C4700D78040 /* Resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA51AE06C4700D78040 /* Resistor.png */; };
+		45C9CFB21AE06C4700D78040 /* RGB LED.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA61AE06C4700D78040 /* RGB LED.png */; };
+		45C9CFB31AE06C4700D78040 /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA71AE06C4700D78040 /* Switch.png */; };
+		45C9CFB41AE06C4700D78040 /* Transistor.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA81AE06C4700D78040 /* Transistor.png */; };
+		45C9CFB51AE06C4700D78040 /* Wire.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C9CFA91AE06C4700D78040 /* Wire.png */; };
 		97735FAE1ABB88BE0071CAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FAD1ABB88BE0071CAE2 /* main.m */; };
 		97735FB11ABB88BE0071CAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB01ABB88BE0071CAE2 /* AppDelegate.m */; };
 		97735FB41ABB88BE0071CAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97735FB31ABB88BE0071CAE2 /* ViewController.m */; };
@@ -48,6 +60,18 @@
 		459278BE1AC9FD0B00EFAC70 /* OCActionSheetPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCActionSheetPickerView.m; sourceTree = "<group>"; };
 		459278BF1AC9FD0B00EFAC70 /* OCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCActionSheetViewController.h; sourceTree = "<group>"; };
 		459278C01AC9FD0B00EFAC70 /* OCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCActionSheetViewController.m; sourceTree = "<group>"; };
+		45C9CF9E1AE06C4700D78040 /* 3-PinBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-PinBox.png"; sourceTree = "<group>"; };
+		45C9CF9F1AE06C4700D78040 /* Capacitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capacitor.png; sourceTree = "<group>"; };
+		45C9CFA01AE06C4700D78040 /* Generic Component.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Generic Component.png"; sourceTree = "<group>"; };
+		45C9CFA11AE06C4700D78040 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
+		45C9CFA21AE06C4700D78040 /* Inductor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inductor.png; sourceTree = "<group>"; };
+		45C9CFA31AE06C4700D78040 /* LED Diode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LED Diode.png"; sourceTree = "<group>"; };
+		45C9CFA41AE06C4700D78040 /* Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Power.png; sourceTree = "<group>"; };
+		45C9CFA51AE06C4700D78040 /* Resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resistor.png; sourceTree = "<group>"; };
+		45C9CFA61AE06C4700D78040 /* RGB LED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RGB LED.png"; sourceTree = "<group>"; };
+		45C9CFA71AE06C4700D78040 /* Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switch.png; sourceTree = "<group>"; };
+		45C9CFA81AE06C4700D78040 /* Transistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transistor.png; sourceTree = "<group>"; };
+		45C9CFA91AE06C4700D78040 /* Wire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wire.png; sourceTree = "<group>"; };
 		97735FA81ABB88BE0071CAE2 /* OpenCircuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCircuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97735FAC1ABB88BE0071CAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97735FAD1ABB88BE0071CAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +125,25 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		45C9CF9D1AE06C3B00D78040 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				45C9CF9E1AE06C4700D78040 /* 3-PinBox.png */,
+				45C9CF9F1AE06C4700D78040 /* Capacitor.png */,
+				45C9CFA01AE06C4700D78040 /* Generic Component.png */,
+				45C9CFA11AE06C4700D78040 /* Ground.png */,
+				45C9CFA21AE06C4700D78040 /* Inductor.png */,
+				45C9CFA31AE06C4700D78040 /* LED Diode.png */,
+				45C9CFA41AE06C4700D78040 /* Power.png */,
+				45C9CFA51AE06C4700D78040 /* Resistor.png */,
+				45C9CFA61AE06C4700D78040 /* RGB LED.png */,
+				45C9CFA71AE06C4700D78040 /* Switch.png */,
+				45C9CFA81AE06C4700D78040 /* Transistor.png */,
+				45C9CFA91AE06C4700D78040 /* Wire.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		97735F9F1ABB88BE0071CAE2 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +168,7 @@
 		97735FAA1ABB88BE0071CAE2 /* OpenCircuit */ = {
 			isa = PBXGroup;
 			children = (
+				45C9CF9D1AE06C3B00D78040 /* Images */,
 				45915B451ABFD34D003B3490 /* Common */,
 				97735FAF1ABB88BE0071CAE2 /* AppDelegate.h */,
 				97735FB01ABB88BE0071CAE2 /* AppDelegate.m */,
@@ -246,7 +290,19 @@
 			files = (
 				97735FB71ABB88BE0071CAE2 /* Main.storyboard in Resources */,
 				97735FBC1ABB88BE0071CAE2 /* LaunchScreen.xib in Resources */,
+				45C9CFB21AE06C4700D78040 /* RGB LED.png in Resources */,
+				45C9CFAB1AE06C4700D78040 /* Capacitor.png in Resources */,
+				45C9CFB01AE06C4700D78040 /* Power.png in Resources */,
 				97735FB91ABB88BE0071CAE2 /* Images.xcassets in Resources */,
+				45C9CFAC1AE06C4700D78040 /* Generic Component.png in Resources */,
+				45C9CFB11AE06C4700D78040 /* Resistor.png in Resources */,
+				45C9CFB41AE06C4700D78040 /* Transistor.png in Resources */,
+				45C9CFB31AE06C4700D78040 /* Switch.png in Resources */,
+				45C9CFAA1AE06C4700D78040 /* 3-PinBox.png in Resources */,
+				45C9CFAD1AE06C4700D78040 /* Ground.png in Resources */,
+				45C9CFB51AE06C4700D78040 /* Wire.png in Resources */,
+				45C9CFAF1AE06C4700D78040 /* LED Diode.png in Resources */,
+				45C9CFAE1AE06C4700D78040 /* Inductor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
