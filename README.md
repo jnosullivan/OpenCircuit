@@ -4,7 +4,7 @@ OpenCircuit is an open source (ideally libre) software intitiative to tackle a n
 
 <b>Developer Documentation</b>: https://github.com/jnosullivan/OpenCircuit/wiki/Developer-Documentation:-How-to-get-started-developing-for-OpenCircuit!
 
-<b>User Documentation</b>:
+<b>User Documentation</b>: https://github.com/jnosullivan/OpenCircuit/wiki/User-Documentation:-How-to-get-started-using-OpenCircuit!
 
 #License
 
