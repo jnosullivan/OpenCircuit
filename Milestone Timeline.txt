@@ -16,12 +16,12 @@ Created: 3.26.15 by August Meyer and John O'Sullivan on behalf of LuTec
 
 **Milestone 7**: Implement movable view to act as basis for all circuits/components. (DONE)
 
-**Milestone 8**: Add all components to the movable view.  
+**Milestone 8**: Add all components to the movable view.  (DONE)
 
-**Milestone 9**: Implement "wiring" capability, so that each component may be wired together into a circuit by the user.  
+**Milestone 9**: Implement "wiring" capability, so that each component may be wired together into a circuit by the user. (TODO) 
 
-**Milestone 10**: Using screenshot capability, expand into other savable formats for the circuit diagrams including PNG and PDF.  
+**Milestone 10**: Using screenshot capability, expand into other savable formats for the circuit diagrams including PNG and PDF. (TODO) 
 
-**Milestone 11**: Create app icon and submit to the App Store. 
+**Milestone 11**: Create app icon and submit to the App Store. (TODO)
 
-**Milestone 12**: Expand app with community support and input from there!  
+**Milestone 12**: Expand app with community support and input from there!  (TODO)
